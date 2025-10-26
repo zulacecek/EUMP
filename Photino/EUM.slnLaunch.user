@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "EUM.Photino.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\EUM.WebsocketServer\\EUM.WebsocketServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

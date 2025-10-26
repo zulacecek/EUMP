@@ -1,0 +1,885 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Code\\EUMP\\Photino\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\importers\\iconsimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:importers\\iconsimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\gfx\\gfxcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\gfx\\gfxcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\parsers\\gfxparser\\gfxfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:parsers\\gfxparser\\gfxfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\parsers\\gfxparser\\spritetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:parsers\\gfxparser\\spritetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BF746D-61B0-4720-882A-0A096DF517A2}|..\\EUM.Core\\EUM.Core.csproj|c:\\code\\eump\\eum.core\\serialization\\jsonserializerextender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1732A72-D906-498D-B3D8-AF08F1E27995}|..\\EUM.EU4Parser\\EUM.EU4Parser.csproj|c:\\code\\eump\\eum.eu4parser\\exportutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1732A72-D906-498D-B3D8-AF08F1E27995}|..\\EUM.EU4Parser\\EUM.EU4Parser.csproj|c:\\code\\eump\\eum.eu4parser\\objectexport\\localisationexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BF746D-61B0-4720-882A-0A096DF517A2}|..\\EUM.Core\\EUM.Core.csproj|c:\\code\\eump\\eum.core\\context\\modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1732A72-D906-498D-B3D8-AF08F1E27995}|..\\EUM.EU4Parser\\EUM.EU4Parser.csproj|c:\\code\\eump\\eum.eu4parser\\objectexport\\missiontreeexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1732A72-D906-498D-B3D8-AF08F1E27995}|..\\EUM.EU4Parser\\EUM.EU4Parser.csproj|c:\\code\\eump\\eum.eu4parser\\objects\\missiontreeobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\communication\\baselayercommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:communication\\baselayercommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1732A72-D906-498D-B3D8-AF08F1E27995}|..\\EUM.EU4Parser\\EUM.EU4Parser.csproj|c:\\code\\eump\\eum.eu4parser\\objectexport\\moddescriptorexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1732A72-D906-498D-B3D8-AF08F1E27995}|..\\EUM.EU4Parser\\EUM.EU4Parser.csproj|c:\\code\\eump\\eum.eu4parser\\exportedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1732A72-D906-498D-B3D8-AF08F1E27995}|..\\EUM.EU4Parser\\EUM.EU4Parser.csproj|c:\\code\\eump\\eum.eu4parser\\objects\\localisationobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BF746D-61B0-4720-882A-0A096DF517A2}|..\\EUM.Core\\EUM.Core.csproj|c:\\code\\eump\\eum.core\\context\\editorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BF746D-61B0-4720-882A-0A096DF517A2}|..\\EUM.Core\\EUM.Core.csproj|c:\\code\\eump\\eum.core\\context\\mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\object\\objectcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\object\\objectcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\object\\openmodpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\object\\openmodpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\filesystem\\filesystemcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\filesystem\\filesystemcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\filesystem\\getfilemetadataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\filesystem\\getfilemetadataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\filesystem\\readdirresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\filesystem\\readdirresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\filesystem\\readdirpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\filesystem\\readdirpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1732A72-D906-498D-B3D8-AF08F1E27995}|..\\EUM.EU4Parser\\EUM.EU4Parser.csproj|c:\\code\\eump\\eum.eu4parser\\objects\\objecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\system\\systemcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\system\\systemcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\system\\checkavailableeditorspayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\system\\checkavailableeditorspayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BF746D-61B0-4720-882A-0A096DF517A2}|..\\EUM.Core\\EUM.Core.csproj|c:\\code\\eump\\eum.core\\coreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\object\\openexternaleditorpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\object\\openexternaleditorpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\object\\exportmodpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\object\\exportmodpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\filesystem\\fileserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\filesystem\\fileserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\parsers\\gfxparser\\gfxparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:parsers\\gfxparser\\gfxparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\communication\\icommunicationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:communication\\icommunicationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\communication\\basecommunicationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:communication\\basecommunicationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\communication\\basecommunicationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:communication\\basecommunicationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEB5659-4C43-A50B-868A-AD5EA70B114D}|..\\EUM.WebsocketServer\\EUM.WebsocketServer.csproj|c:\\code\\eump\\eum.websocketserver\\unifiedsockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DEB5659-4C43-A50B-868A-AD5EA70B114D}|..\\EUM.WebsocketServer\\EUM.WebsocketServer.csproj|c:\\code\\eump\\eum.websocketserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\filesystem\\basefilesystemprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:filesystem\\basefilesystemprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\gfx\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:gfx\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\filesystem\\filesystemcachedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:filesystem\\filesystemcachedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\filesystem\\filesystemcachedobjecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:filesystem\\filesystemcachedobjecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D3E008-2EC3-4F91-BEA7-D0AD0217A441}|..\\EUM.Logging\\EUM.Logging.csproj|c:\\code\\eump\\eum.logging\\logging\\logprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D3E008-2EC3-4F91-BEA7-D0AD0217A441}|..\\EUM.Logging\\EUM.Logging.csproj|c:\\code\\eump\\eum.logging\\logging\\logitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB36F90-F0E5-47BD-8E40-C3A0C8D11A1C}|..\\EUM.PDXParser\\EUM.PDXParser.csproj|c:\\code\\eump\\eum.pdxparser\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB36F90-F0E5-47BD-8E40-C3A0C8D11A1C}|..\\EUM.PDXParser\\EUM.PDXParser.csproj|c:\\code\\eump\\eum.pdxparser\\parserarguments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB36F90-F0E5-47BD-8E40-C3A0C8D11A1C}|..\\EUM.PDXParser\\EUM.PDXParser.csproj|c:\\code\\eump\\eum.pdxparser\\parseroptimized.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB36F90-F0E5-47BD-8E40-C3A0C8D11A1C}|..\\EUM.PDXParser\\EUM.PDXParser.csproj|c:\\code\\eump\\eum.pdxparser\\datastatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB36F90-F0E5-47BD-8E40-C3A0C8D11A1C}|..\\EUM.PDXParser\\EUM.PDXParser.csproj|c:\\code\\eump\\eum.pdxparser\\listwithkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB36F90-F0E5-47BD-8E40-C3A0C8D11A1C}|..\\EUM.PDXParser\\EUM.PDXParser.csproj|c:\\code\\eump\\eum.pdxparser\\datablock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D3E008-2EC3-4F91-BEA7-D0AD0217A441}|..\\EUM.Logging\\EUM.Logging.csproj|c:\\code\\eump\\eum.logging\\logging\\logitemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Code\\EUMP\\WebsocketServer\\UnifiedSocketHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\filesystem\\openfiledialogresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\filesystem\\openfiledialogresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\communication\\ilayercommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:communication\\ilayercommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\eumcommunication\\filesystem\\openfiledialogpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:eumcommunication\\filesystem\\openfiledialogpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\communication\\layercommunicationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:communication\\layercommunicationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|c:\\code\\eump\\photino\\communication\\icommunicationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD6E3B43-4E6B-E9F4-202B-D52005FA6BB5}|EUM.Photino.csproj|solutionrelative:communication\\icommunicationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 30,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LocalisationObjects.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.EU4Parser\\Objects\\LocalisationObjects.cs",
+              "RelativeDocumentMoniker": "..\\EUM.EU4Parser\\Objects\\LocalisationObjects.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.EU4Parser\\Objects\\LocalisationObjects.cs",
+              "RelativeToolTip": "..\\EUM.EU4Parser\\Objects\\LocalisationObjects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T11:43:43.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MissionTreeObjects.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.EU4Parser\\Objects\\MissionTreeObjects.cs",
+              "RelativeDocumentMoniker": "..\\EUM.EU4Parser\\Objects\\MissionTreeObjects.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.EU4Parser\\Objects\\MissionTreeObjects.cs",
+              "RelativeToolTip": "..\\EUM.EU4Parser\\Objects\\MissionTreeObjects.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA3wEcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T04:22:26.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModSettings.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.Core\\Context\\ModSettings.cs",
+              "RelativeDocumentMoniker": "..\\EUM.Core\\Context\\ModSettings.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.Core\\Context\\ModSettings.cs",
+              "RelativeToolTip": "..\\EUM.Core\\Context\\ModSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T04:13:03.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetFileMetadataResponse.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\GetFileMetadataResponse.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\FileSystem\\GetFileMetadataResponse.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\GetFileMetadataResponse.cs",
+              "RelativeToolTip": "EUMCommunication\\FileSystem\\GetFileMetadataResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:14:20.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CheckAvailableEditorsPayload.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\System\\CheckAvailableEditorsPayload.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\System\\CheckAvailableEditorsPayload.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\System\\CheckAvailableEditorsPayload.cs",
+              "RelativeToolTip": "EUMCommunication\\System\\CheckAvailableEditorsPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T12:01:23.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OpenExternalEditorPayload.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Object\\OpenExternalEditorPayload.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\Object\\OpenExternalEditorPayload.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Object\\OpenExternalEditorPayload.cs",
+              "RelativeToolTip": "EUMCommunication\\Object\\OpenExternalEditorPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T08:37:45.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CoreService.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.Core\\CoreService.cs",
+              "RelativeDocumentMoniker": "..\\EUM.Core\\CoreService.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.Core\\CoreService.cs",
+              "RelativeToolTip": "..\\EUM.Core\\CoreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T08:32:19.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModDescriptorExporter.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.EU4Parser\\ObjectExport\\ModDescriptorExporter.cs",
+              "RelativeDocumentMoniker": "..\\EUM.EU4Parser\\ObjectExport\\ModDescriptorExporter.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.EU4Parser\\ObjectExport\\ModDescriptorExporter.cs",
+              "RelativeToolTip": "..\\EUM.EU4Parser\\ObjectExport\\ModDescriptorExporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T02:44:47.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ObjectType.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.EU4Parser\\Objects\\ObjectType.cs",
+              "RelativeDocumentMoniker": "..\\EUM.EU4Parser\\Objects\\ObjectType.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.EU4Parser\\Objects\\ObjectType.cs",
+              "RelativeToolTip": "..\\EUM.EU4Parser\\Objects\\ObjectType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:05:50.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Mod.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.Core\\Context\\Mod.cs",
+              "RelativeDocumentMoniker": "..\\EUM.Core\\Context\\Mod.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.Core\\Context\\Mod.cs",
+              "RelativeToolTip": "..\\EUM.Core\\Context\\Mod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:35:15.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditorContext.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.Core\\Context\\EditorContext.cs",
+              "RelativeDocumentMoniker": "..\\EUM.Core\\Context\\EditorContext.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.Core\\Context\\EditorContext.cs",
+              "RelativeToolTip": "..\\EUM.Core\\Context\\EditorContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:34:26.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JsonSerializerExtender.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.Core\\Serialization\\JsonSerializerExtender.cs",
+              "RelativeDocumentMoniker": "..\\EUM.Core\\Serialization\\JsonSerializerExtender.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.Core\\Serialization\\JsonSerializerExtender.cs",
+              "RelativeToolTip": "..\\EUM.Core\\Serialization\\JsonSerializerExtender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:33:52.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ExportModPayload.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Object\\ExportModPayload.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\Object\\ExportModPayload.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Object\\ExportModPayload.cs",
+              "RelativeToolTip": "EUMCommunication\\Object\\ExportModPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T06:37:29.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalisationExporter.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.EU4Parser\\ObjectExport\\LocalisationExporter.cs",
+              "RelativeDocumentMoniker": "..\\EUM.EU4Parser\\ObjectExport\\LocalisationExporter.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.EU4Parser\\ObjectExport\\LocalisationExporter.cs",
+              "RelativeToolTip": "..\\EUM.EU4Parser\\ObjectExport\\LocalisationExporter.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAArwC0AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T06:31:31.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SystemCommunication.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\System\\SystemCommunication.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\System\\SystemCommunication.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\System\\SystemCommunication.cs",
+              "RelativeToolTip": "EUMCommunication\\System\\SystemCommunication.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAASwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T15:48:13.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExportedObject.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.EU4Parser\\ExportedObject.cs",
+              "RelativeDocumentMoniker": "..\\EUM.EU4Parser\\ExportedObject.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.EU4Parser\\ExportedObject.cs",
+              "RelativeToolTip": "..\\EUM.EU4Parser\\ExportedObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T08:24:56.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExportUtils.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.EU4Parser\\ExportUtils.cs",
+              "RelativeDocumentMoniker": "..\\EUM.EU4Parser\\ExportUtils.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.EU4Parser\\ExportUtils.cs",
+              "RelativeToolTip": "..\\EUM.EU4Parser\\ExportUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAD4vx4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T08:10:50.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MissionTreeExporter.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.EU4Parser\\ObjectExport\\MissionTreeExporter.cs",
+              "RelativeDocumentMoniker": "..\\EUM.EU4Parser\\ObjectExport\\MissionTreeExporter.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.EU4Parser\\ObjectExport\\MissionTreeExporter.cs",
+              "RelativeToolTip": "..\\EUM.EU4Parser\\ObjectExport\\MissionTreeExporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T08:04:50.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UnifiedSocketHandler.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.WebsocketServer\\UnifiedSocketHandler.cs",
+              "RelativeDocumentMoniker": "..\\EUM.WebsocketServer\\UnifiedSocketHandler.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.WebsocketServer\\UnifiedSocketHandler.cs",
+              "RelativeToolTip": "..\\EUM.WebsocketServer\\UnifiedSocketHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T09:20:07.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FileServer.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\FileServer.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\FileSystem\\FileServer.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\FileServer.cs",
+              "RelativeToolTip": "EUMCommunication\\FileSystem\\FileServer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAEwCQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T05:36:45.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FileSystemCachedObjectType.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\FileSystem\\FileSystemCachedObjectType.cs",
+              "RelativeDocumentMoniker": "FileSystem\\FileSystemCachedObjectType.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\FileSystem\\FileSystemCachedObjectType.cs",
+              "RelativeToolTip": "FileSystem\\FileSystemCachedObjectType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T10:44:48.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FileSystemCachedObject.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\FileSystem\\FileSystemCachedObject.cs",
+              "RelativeDocumentMoniker": "FileSystem\\FileSystemCachedObject.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\FileSystem\\FileSystemCachedObject.cs",
+              "RelativeToolTip": "FileSystem\\FileSystemCachedObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T10:04:52.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.WebsocketServer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\EUM.WebsocketServer\\Program.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.WebsocketServer\\Program.cs",
+              "RelativeToolTip": "..\\EUM.WebsocketServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T06:21:51.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OpenModPayload.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Object\\OpenModPayload.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\Object\\OpenModPayload.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Object\\OpenModPayload.cs",
+              "RelativeToolTip": "EUMCommunication\\Object\\OpenModPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T03:35:18.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ObjectCommunication.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Object\\ObjectCommunication.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\Object\\ObjectCommunication.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Object\\ObjectCommunication.cs",
+              "RelativeToolTip": "EUMCommunication\\Object\\ObjectCommunication.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIAwwC4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T03:34:00.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GfxCommunication.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Gfx\\GfxCommunication.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\Gfx\\GfxCommunication.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\Gfx\\GfxCommunication.cs",
+              "RelativeToolTip": "EUMCommunication\\Gfx\\GfxCommunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T03:19:45.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpriteType.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Parsers\\GfxParser\\SpriteType.cs",
+              "RelativeDocumentMoniker": "Parsers\\GfxParser\\SpriteType.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Parsers\\GfxParser\\SpriteType.cs",
+              "RelativeToolTip": "Parsers\\GfxParser\\SpriteType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:13:32.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GfxFile.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Parsers\\GfxParser\\GfxFile.cs",
+              "RelativeDocumentMoniker": "Parsers\\GfxParser\\GfxFile.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Parsers\\GfxParser\\GfxFile.cs",
+              "RelativeToolTip": "Parsers\\GfxParser\\GfxFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:13:14.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GfxParser.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Parsers\\GfxParser\\GfxParser.cs",
+              "RelativeDocumentMoniker": "Parsers\\GfxParser\\GfxParser.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Parsers\\GfxParser\\GfxParser.cs",
+              "RelativeToolTip": "Parsers\\GfxParser\\GfxParser.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:12:35.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IconsImporter.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Importers\\IconsImporter.cs",
+              "RelativeDocumentMoniker": "Importers\\IconsImporter.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Importers\\IconsImporter.cs",
+              "RelativeToolTip": "Importers\\IconsImporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:11:06.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ParserOptimized.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.PDXParser\\ParserOptimized.cs",
+              "RelativeDocumentMoniker": "..\\EUM.PDXParser\\ParserOptimized.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.PDXParser\\ParserOptimized.cs",
+              "RelativeToolTip": "..\\EUM.PDXParser\\ParserOptimized.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:36:11.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DataStatement.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.PDXParser\\DataStatement.cs",
+              "RelativeDocumentMoniker": "..\\EUM.PDXParser\\DataStatement.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.PDXParser\\DataStatement.cs",
+              "RelativeToolTip": "..\\EUM.PDXParser\\DataStatement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:04:22.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DataBlock.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.PDXParser\\DataBlock.cs",
+              "RelativeDocumentMoniker": "..\\EUM.PDXParser\\DataBlock.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.PDXParser\\DataBlock.cs",
+              "RelativeToolTip": "..\\EUM.PDXParser\\DataBlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:03:48.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ListWithKey.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.PDXParser\\ListWithKey.cs",
+              "RelativeDocumentMoniker": "..\\EUM.PDXParser\\ListWithKey.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.PDXParser\\ListWithKey.cs",
+              "RelativeToolTip": "..\\EUM.PDXParser\\ListWithKey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:03:08.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ParserArguments.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.PDXParser\\ParserArguments.cs",
+              "RelativeDocumentMoniker": "..\\EUM.PDXParser\\ParserArguments.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.PDXParser\\ParserArguments.cs",
+              "RelativeToolTip": "..\\EUM.PDXParser\\ParserArguments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:02:15.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.PDXParser\\Parser.cs",
+              "RelativeDocumentMoniker": "..\\EUM.PDXParser\\Parser.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.PDXParser\\Parser.cs",
+              "RelativeToolTip": "..\\EUM.PDXParser\\Parser.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwDMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T10:01:33.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Gfx\\ImageService.cs",
+              "RelativeDocumentMoniker": "Gfx\\ImageService.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Gfx\\ImageService.cs",
+              "RelativeToolTip": "Gfx\\ImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T07:35:34.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LogProvider.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.Logging\\Logging\\LogProvider.cs",
+              "RelativeDocumentMoniker": "..\\EUM.Logging\\Logging\\LogProvider.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.Logging\\Logging\\LogProvider.cs",
+              "RelativeToolTip": "..\\EUM.Logging\\Logging\\LogProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T07:29:40.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LogItemType.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.Logging\\Logging\\LogItemType.cs",
+              "RelativeDocumentMoniker": "..\\EUM.Logging\\Logging\\LogItemType.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.Logging\\Logging\\LogItemType.cs",
+              "RelativeToolTip": "..\\EUM.Logging\\Logging\\LogItemType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T07:29:36.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LogItem.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\EUM.Logging\\Logging\\LogItem.cs",
+              "RelativeDocumentMoniker": "..\\EUM.Logging\\Logging\\LogItem.cs",
+              "ToolTip": "C:\\Code\\EUMP\\EUM.Logging\\Logging\\LogItem.cs",
+              "RelativeToolTip": "..\\EUM.Logging\\Logging\\LogItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T07:29:29.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReadDirResponse.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\ReadDirResponse.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\FileSystem\\ReadDirResponse.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\ReadDirResponse.cs",
+              "RelativeToolTip": "EUMCommunication\\FileSystem\\ReadDirResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:38:07.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UnifiedSocketHandler.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\WebsocketServer\\UnifiedSocketHandler.cs",
+              "RelativeDocumentMoniker": "..\\WebsocketServer\\UnifiedSocketHandler.cs",
+              "ToolTip": "C:\\Code\\EUMP\\WebsocketServer\\UnifiedSocketHandler.cs",
+              "RelativeToolTip": "..\\WebsocketServer\\UnifiedSocketHandler.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAlwD0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:56:12.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FileSystemCommunication.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\FileSystemCommunication.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\FileSystem\\FileSystemCommunication.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\FileSystemCommunication.cs",
+              "RelativeToolTip": "EUMCommunication\\FileSystem\\FileSystemCommunication.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAADgv4YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:22:17.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseLayerCommunication.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Communication\\BaseLayerCommunication.cs",
+              "RelativeDocumentMoniker": "Communication\\BaseLayerCommunication.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Communication\\BaseLayerCommunication.cs",
+              "RelativeToolTip": "Communication\\BaseLayerCommunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:04:58.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAewEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T07:36:29.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "OpenFileDialogResponse.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\OpenFileDialogResponse.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\FileSystem\\OpenFileDialogResponse.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\OpenFileDialogResponse.cs",
+              "RelativeToolTip": "EUMCommunication\\FileSystem\\OpenFileDialogResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T03:26:37.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ILayerCommunication.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Communication\\ILayerCommunication.cs",
+              "RelativeDocumentMoniker": "Communication\\ILayerCommunication.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Communication\\ILayerCommunication.cs",
+              "RelativeToolTip": "Communication\\ILayerCommunication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:03:09.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "OpenFileDialogPayload.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\OpenFileDialogPayload.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\FileSystem\\OpenFileDialogPayload.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\OpenFileDialogPayload.cs",
+              "RelativeToolTip": "EUMCommunication\\FileSystem\\OpenFileDialogPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T03:26:03.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LayerCommunicationResult.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Communication\\LayerCommunicationResult.cs",
+              "RelativeDocumentMoniker": "Communication\\LayerCommunicationResult.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Communication\\LayerCommunicationResult.cs",
+              "RelativeToolTip": "Communication\\LayerCommunicationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:37:55.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BaseFileSystemProvider.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\FileSystem\\BaseFileSystemProvider.cs",
+              "RelativeDocumentMoniker": "FileSystem\\BaseFileSystemProvider.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\FileSystem\\BaseFileSystemProvider.cs",
+              "RelativeToolTip": "FileSystem\\BaseFileSystemProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:59:53.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ICommunicationRequest.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Communication\\ICommunicationRequest.cs",
+              "RelativeDocumentMoniker": "Communication\\ICommunicationRequest.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Communication\\ICommunicationRequest.cs",
+              "RelativeToolTip": "Communication\\ICommunicationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:07:48.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ICommunicationResponse.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Communication\\ICommunicationResponse.cs",
+              "RelativeDocumentMoniker": "Communication\\ICommunicationResponse.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Communication\\ICommunicationResponse.cs",
+              "RelativeToolTip": "Communication\\ICommunicationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:06:37.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BaseCommunicationResponse.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Communication\\BaseCommunicationResponse.cs",
+              "RelativeDocumentMoniker": "Communication\\BaseCommunicationResponse.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Communication\\BaseCommunicationResponse.cs",
+              "RelativeToolTip": "Communication\\BaseCommunicationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:05:51.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReadDirPayload.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\ReadDirPayload.cs",
+              "RelativeDocumentMoniker": "EUMCommunication\\FileSystem\\ReadDirPayload.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\EUMCommunication\\FileSystem\\ReadDirPayload.cs",
+              "RelativeToolTip": "EUMCommunication\\FileSystem\\ReadDirPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:25:24.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BaseCommunicationRequest.cs",
+              "DocumentMoniker": "C:\\Code\\EUMP\\Photino\\Communication\\BaseCommunicationRequest.cs",
+              "RelativeDocumentMoniker": "Communication\\BaseCommunicationRequest.cs",
+              "ToolTip": "C:\\Code\\EUMP\\Photino\\Communication\\BaseCommunicationRequest.cs",
+              "RelativeToolTip": "Communication\\BaseCommunicationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T08:07:40.903Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

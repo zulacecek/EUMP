@@ -1,0 +1,11 @@
+C:\Code\EUMP\EUM.Utils\bin\Debug\net8.0\EUM.Utils.deps.json
+C:\Code\EUMP\EUM.Utils\bin\Debug\net8.0\EUM.Utils.dll
+C:\Code\EUMP\EUM.Utils\bin\Debug\net8.0\EUM.Utils.pdb
+C:\Code\EUMP\EUM.Utils\obj\Debug\net8.0\EUM.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\EUMP\EUM.Utils\obj\Debug\net8.0\EUM.Utils.AssemblyInfoInputs.cache
+C:\Code\EUMP\EUM.Utils\obj\Debug\net8.0\EUM.Utils.AssemblyInfo.cs
+C:\Code\EUMP\EUM.Utils\obj\Debug\net8.0\EUM.Utils.csproj.CoreCompileInputs.cache
+C:\Code\EUMP\EUM.Utils\obj\Debug\net8.0\EUM.Utils.dll
+C:\Code\EUMP\EUM.Utils\obj\Debug\net8.0\refint\EUM.Utils.dll
+C:\Code\EUMP\EUM.Utils\obj\Debug\net8.0\EUM.Utils.pdb
+C:\Code\EUMP\EUM.Utils\obj\Debug\net8.0\ref\EUM.Utils.dll

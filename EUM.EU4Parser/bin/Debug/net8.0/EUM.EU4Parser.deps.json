@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EUM.EU4Parser/1.0.0": {
+        "dependencies": {
+          "EUM.Core": "1.0.0",
+          "EUM.Logging": "1.0.0",
+          "EUM.Utils": "1.0.0"
+        },
+        "runtime": {
+          "EUM.EU4Parser.dll": {}
+        }
+      },
+      "EUM.Core/1.0.0": {
+        "dependencies": {
+          "EUM.Logging": "1.0.0"
+        },
+        "runtime": {
+          "EUM.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EUM.Logging/1.0.0": {
+        "runtime": {
+          "EUM.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EUM.Utils/1.0.0": {
+        "runtime": {
+          "EUM.Utils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EUM.EU4Parser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EUM.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EUM.Logging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EUM.Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

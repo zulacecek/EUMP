@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EUM.WebsocketServer/1.0.0": {
+        "dependencies": {
+          "EUM.Logging": "1.0.0"
+        },
+        "runtime": {
+          "EUM.WebsocketServer.dll": {}
+        }
+      },
+      "EUM.Logging/1.0.0": {
+        "runtime": {
+          "EUM.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EUM.WebsocketServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EUM.Logging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

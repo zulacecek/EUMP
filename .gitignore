@@ -1,0 +1,25 @@
+# Tauri specific files and directories
+/dist/
+/target/
+/build/
+
+# Node.js dependencies
+/Photino/UserInterface/
+/bin/
+
+# Build artifacts
+/*.lock
+/npm-debug.log*
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# Linux-specific files
+*.swp
+
+# Editor-specific files
+.vscode/
+.idea/

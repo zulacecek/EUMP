@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EUM.Core\EUM.Core.csproj" />
+    <ProjectReference Include="..\EUM.Logging\EUM.Logging.csproj" />
+    <ProjectReference Include="..\EUM.Utils\EUM.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

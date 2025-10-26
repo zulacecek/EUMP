@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "1vO+7c6M7o4=",
+  "success": true,
+  "projectFilePath": "C:\\Code\\EUMP\\Photino\\EUM.Photino.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\George\\.nuget\\packages\\directxtexnet\\1.0.7\\directxtexnet.1.0.7.nupkg.sha512",
+    "C:\\Users\\George\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\George\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\8.0.10\\microsoft.extensions.fileproviders.embedded.8.0.10.nupkg.sha512",
+    "C:\\Users\\George\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\George\\.nuget\\packages\\photino.native\\3.2.3\\photino.native.3.2.3.nupkg.sha512",
+    "C:\\Users\\George\\.nuget\\packages\\photino.net\\3.2.3\\photino.net.3.2.3.nupkg.sha512",
+    "C:\\Users\\George\\.nuget\\packages\\photino.net.server\\3.0.11\\photino.net.server.3.0.11.nupkg.sha512",
+    "C:\\Users\\George\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

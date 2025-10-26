@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EUM.PDXParser/1.0.0": {
+        "runtime": {
+          "EUM.PDXParser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EUM.PDXParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\Code\EUMP\EUM.PDXParser\bin\Debug\net8.0\EUM.PDXParser.deps.json
+C:\Code\EUMP\EUM.PDXParser\bin\Debug\net8.0\EUM.PDXParser.dll
+C:\Code\EUMP\EUM.PDXParser\bin\Debug\net8.0\EUM.PDXParser.pdb
+C:\Code\EUMP\EUM.PDXParser\obj\Debug\net8.0\EUM.PDXParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\EUMP\EUM.PDXParser\obj\Debug\net8.0\EUM.PDXParser.AssemblyInfoInputs.cache
+C:\Code\EUMP\EUM.PDXParser\obj\Debug\net8.0\EUM.PDXParser.AssemblyInfo.cs
+C:\Code\EUMP\EUM.PDXParser\obj\Debug\net8.0\EUM.PDXParser.csproj.CoreCompileInputs.cache
+C:\Code\EUMP\EUM.PDXParser\obj\Debug\net8.0\EUM.PDXParser.dll
+C:\Code\EUMP\EUM.PDXParser\obj\Debug\net8.0\refint\EUM.PDXParser.dll
+C:\Code\EUMP\EUM.PDXParser\obj\Debug\net8.0\EUM.PDXParser.pdb
+C:\Code\EUMP\EUM.PDXParser\obj\Debug\net8.0\ref\EUM.PDXParser.dll

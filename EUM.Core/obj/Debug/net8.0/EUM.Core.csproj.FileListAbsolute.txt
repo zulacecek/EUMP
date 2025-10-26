@@ -1,0 +1,15 @@
+C:\Code\EUMP\EUM.Core\bin\Debug\net8.0\EUM.Core.deps.json
+C:\Code\EUMP\EUM.Core\bin\Debug\net8.0\EUM.Core.dll
+C:\Code\EUMP\EUM.Core\bin\Debug\net8.0\EUM.Core.pdb
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\EUM.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\EUM.Core.AssemblyInfoInputs.cache
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\EUM.Core.AssemblyInfo.cs
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\EUM.Core.csproj.CoreCompileInputs.cache
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\EUM.Core.dll
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\refint\EUM.Core.dll
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\EUM.Core.pdb
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\ref\EUM.Core.dll
+C:\Code\EUMP\EUM.Core\bin\Debug\net8.0\EUM.Logging.dll
+C:\Code\EUMP\EUM.Core\bin\Debug\net8.0\EUM.Logging.pdb
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\EUM.Core.csproj.AssemblyReference.cache
+C:\Code\EUMP\EUM.Core\obj\Debug\net8.0\EUM.Core.csproj.Up2Date
