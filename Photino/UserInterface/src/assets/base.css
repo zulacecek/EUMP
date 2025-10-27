@@ -1,0 +1,90 @@
+:root {
+  --vt-c-white: #ffffff;
+
+  --vt-c-black: #1f262c;
+  --vt-c-black-soft: #252d33;
+  --vt-c-black-mute: #2e3740;
+
+  --vt-c-indigo: #2c3e50;
+
+  /* Border colors */
+  --vt-c-divider-dark-1: rgba(158, 130, 38, 0.9);
+  --vt-c-divider-dark-2: rgba(158, 130, 38, 1);
+
+  /* Text colors */
+  --vt-c-text-dark-1: #eceff1;
+  --vt-c-text-dark-2: rgba(224, 224, 224, 0.64);
+
+  /* Custom properties based on vt colors */
+  --color-background: var(--vt-c-black);
+  --color-background-soft: var(--vt-c-black-soft);
+  --color-background-mute: var(--vt-c-black-mute);
+
+  --color-border: var(--vt-c-divider-dark-2);
+  --color-border-hover: var(--vt-c-divider-dark-1);
+
+  --color-border-dark: var(--vt-c-indigo);
+
+  --color-heading: var(--vt-c-text-dark-1);
+  --color-text: var(--vt-c-text-dark-2);
+
+  --color-button-bg: #3a444d;
+  --color-button-hover: #4a555f;
+
+  --section-gap: 160px;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: white;
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    GaramondBold;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+svg {
+  color: var(--vt-c-text-dark-2);
+}
+
+/* Needed for custom scrollbar! */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Dragger */
+::-webkit-scrollbar-thumb:vertical {
+    background-color: rgba(158, 130, 38, 0.7);
+}
+
+/* Dragger */
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: rgba(158, 130, 38, 0.7);
+}
+
+@font-face {
+  font-family: "GaramondRegular";
+  src: url('./Garamond Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "GaramondBold";
+  src: url('./Garamond Bold.ttf') format('truetype');
+}
