@@ -1,0 +1,235 @@
+@import './base.css';
+
+#app {
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.golden-border {
+  border-style: ridge;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: var(--color-border);
+}
+
+.thin-golden-border {
+  border-style: ridge;
+  border-width: 2px;
+  border-color: var(--color-border);
+}
+
+.golden-divider {
+  border-bottom: 2px ridge var(--color-border);
+}
+
+button {
+  background-color: var(--color-button-bg);
+  color: var(--vt-c-text-dark-1);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: var(--color-button-hover);
+  border-color: var(--color-border-hover);
+}
+
+button:disabled {
+  background-color: rgb(37, 40, 43)!important;
+  color: gray!important;
+}
+
+button:disabled:hover {
+  background-color: rgb(37, 40, 43)!important;
+  color: gray!important;
+  cursor: default!important;
+}
+
+.button {
+  height: 2rem;
+  background-color: var(--color-button-bg);
+  color: var(--vt-c-text-dark-1);
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: var(--color-button-hover);
+  border-color: var(--color-border-hover);
+}
+
+.button:disabled {
+  background-color: rgb(37, 40, 43)!important;
+  color: gray!important;
+}
+
+.simple-button {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  padding: 0 0.5rem 0 0.5rem;
+  color: var(--vt-c-text-dark-1)
+}
+
+.simple-button:hover {
+  background-color: var(--color-button-hover);
+  border-color: var(--color-border-hover);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.relative-container {
+  position: relative;
+}
+
+.checkbox-label-group {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+.simple-background {
+  background-color: rgb(31, 38, 44);
+}
+
+.simple-background-green {
+  background-color: rgb(71, 107, 64);
+}
+
+.simple-background-red {
+  background-color: rgb(107, 64, 64);
+}
+
+.simple-background-yellow{
+  background-color: rgb(136, 135, 74);
+}
+
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: rgb(185, 48, 48);
+}
+
+.text-yellow {
+  color: rgb(161, 160, 77);
+}
+
+.textbox {
+  background-color: rgb(22, 26, 31);
+  border-style: ridge;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: rgba(62, 68, 73, 0.6);
+  min-height: 25px;
+  font-size: 15px;
+  width: 100%;
+  color: var(--vt-c-text-dark-1);
+  font-family: inherit;
+}
+
+.textbox:disabled{
+  background-color: rgb(45, 46, 48);
+}
+
+.simplest-text-input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+}
+
+.simplest-text-input:disabled {
+  color: initial;
+}
+
+.tooltip {
+  line-height: 1.3;
+  min-width: 300px;
+  max-width: 450px;
+  max-height: 400px;
+  overflow: auto;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: GaramondRegular;
+  white-space: nowrap;
+  z-index: 1000;
+  white-space: pre-wrap;
+}
+
+.custom-context-menu {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--color-border);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.custom-context-menu li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.custom-context-menu li:hover {
+  background-color: var(--color-button-hover);
+}
+
+.no-user-select {
+  user-select: none;
+}
+
+.hint-text {
+  font-size: 12px;
+}
+
+.relative {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.screen-disabler{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 80;
+    background-color: rgb(0, 0, 0, 0.7);
+}

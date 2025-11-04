@@ -1,0 +1,1912 @@
+[
+    {
+        "key": "ai_attitude",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "attitude",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "army_strength",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "float"
+                }
+            }
+        ]
+    },
+    {
+        "key": "can_use_peace_treaty",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "treaty",
+                    "statement_type":4
+                }
+            }
+        ]
+    },
+    {
+        "key": "capital_distance",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "distance",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "check_variable",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "which",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "development_in_provinces",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "region",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "employed_advisor",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": true,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "category",
+                    "statement_type": "text",
+                    "is_optional": true
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "is_male",
+                    "statement_type": "text",
+                    "is_optional": true
+                }
+            },
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "religion",
+                    "statement_type": "text",
+                    "is_optional": true
+                }
+            },
+            {
+                "type": "statement",
+                "position": 3,
+                "statement": {
+                    "key": "culture",
+                    "statement_type": "text",
+                    "is_optional": true
+                }
+            },
+            {
+                "type": "statement",
+                "position": 4,
+                "statement": {
+                    "key": "type",
+                    "statement_type": "text",
+                    "is_optional": true
+                }
+            },
+            {
+                "type": "statement",
+                "position": 5,
+                "statement": {
+                    "key": "skill",
+                    "statement_type": "text",
+                    "is_optional": true
+                }
+            },
+            {
+                "type": "statement",
+                "position": 6,
+                "statement": {
+                    "key": "name",
+                    "statement_type": "text",
+                    "is_optional": true
+                }
+            },
+            {
+                "type": "statement",
+                "position": 7,
+                "statement": {
+                    "key": "is_discounted",
+                    "statement_type": "text",
+                    "is_optional": true
+                }
+            }
+        ]
+    },
+    {
+        "key": "estate_influence",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "estate",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "influence",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "estate_loyalty",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "estate",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "loyalty",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "estate_territory",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "estate",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "territory",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "faction_influence",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "faction",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "influence",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "government_power_frozen",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "mechanic_type",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "power_type",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "had_active_policy",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "policy",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "days",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "had_consort_flag",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "flag",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "days",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "had_country_flag",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "flag",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "days",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "had_global_flag",
+        "allow_changes": false,
+        "type": "clause",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "flag",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "days",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "had_heir_flag",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "flag",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "days",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "had_province_flag",
+        "allow_changes": false,
+        "type": 5,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "flag",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "days",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "had_ruler_flag",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "flag",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "days",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_casus_belli",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "type",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "target",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_disaster_progress",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "disaster",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_estate_influence_modifier",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "estate",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "modifier",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_estate_loyalty_modifier",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "estate",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "modifier",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_great_project",
+        "allow_changes": false,
+        "type": 5,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "type",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "tier",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_global_modifier_value",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "which",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_government_power",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "mechanic_type",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "power_type",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 3,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_leader_with",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "fire",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "shock",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 3,
+                "statement": {
+                    "key": "manuever",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 4,
+                "statement": {
+                    "key": "siege",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 5,
+                "statement": {
+                    "key": "total_pips",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 6,
+                "statement": {
+                    "key": "admiral",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 7,
+                "statement": {
+                    "key": "general",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 8,
+                "statement": {
+                    "key": "is_monarch_leader",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_local_modifier_value",
+        "allow_changes": false,
+        "type": 5,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "which",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_opinion",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_opinion_modifier",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "modifier",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_privateer_share_in_trade_node",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "share",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_spy_network_from",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_spy_network_in",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_trade_company_investment_in_area",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "investment",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "investor",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_trade_modifier",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "investment",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "key",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "has_won_war_against",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "max_years_sinc",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "incident_variable_value",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "incident",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "institution_difference",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "is_in_war",
+        "allow_changes": true,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "attacker_leader",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "duration",
+                    "statement_type": "integer"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 3,
+                "statement": {
+                    "key": "defender_leader",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 4,
+                "statement": {
+                    "key": "casus_belli",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 5,
+                "statement": {
+                    "key": "defenders",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 6,
+                "statement": {
+                    "key": "attackers",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 7,
+                "statement": {
+                    "key": "participants",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 8,
+                "statement": {
+                    "key": "war_score",
+                    "statement_type": "integer"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 9,
+                "statement": {
+                    "key": "start_date",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 10,
+                "statement": {
+                    "key": "war_goal_province",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "is_subject_of_type_with_overlord",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "type",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "is_variable_equal",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "which",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "military_strength",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "float"
+                }
+            }
+        ]
+    },
+    {
+        "key": "military_strength",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "float"
+                }
+            }
+        ]
+    },
+    {
+        "key": "num_investments_in_trade_company_region",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "investment",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "num_of_estate_privileges",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "estate",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "num_of_owned_provinces_with",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": true,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": true,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "colonial_region",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 3,
+                "statement": {
+                    "key": "is_city",
+                    "statement_type": "boolean"
+                }
+            }
+        ]
+    },
+    {
+        "key": "num_of_provinces_owned_or_owned_by_subjects_with",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "region",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "num_of_special_units",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "special_unit_category",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "type",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 3,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "num_of_units_in_province",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "type",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 3,
+                "statement": {
+                    "key": "amount",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "owns_all_provinces",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": true,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "continent",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "has_terrain",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "privateer_power",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": true,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "country",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "share",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "variable_arithmetic_trigger",
+        "type": "clause",
+        "allow_changes": false
+    },
+    {
+        "key": "num_of_religion",
+        "allow_changes": false,
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "religion",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 3,
+                "statement": {
+                    "key": "secondary",
+                    "statement_type": "text",
+                    "is_optional": true
+                }
+            }
+        ]
+    },
+    {
+        "key": "custom_trigger_tooltip",
+        "type": "clause",
+        "allow_changes": true
+    },
+    {
+        "key": "hidden_trigger",
+        "type": "clause",
+        "allow_changes": true
+    },
+    {
+        "key": "exclude_from_progress",
+        "type": "clause",
+        "allow_changes": true
+    },
+    {
+        "key": "calc_true_if",
+        "type": "clause",
+        "allow_changes": true
+    },
+    {
+        "key": "production_leader",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "trade_goods",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "province_distance",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "distance",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "religion_years",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "confucianism",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "religious_school",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "group",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "school",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "reverse_has_opinion",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "reverse_has_opinion_modifier",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "modifier",
+                    "statement_type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "key": "total_losses_in_won_wars",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "winner",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "loser",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 3,
+                "statement": {
+                    "key": "amount",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "trade_goods_produced_amount",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "trade_goods",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "amount",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "trade_share",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "country",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "share",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "trading_bonus",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "trade_goods",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "boolean"
+                }
+            }
+        ]
+    },
+    {
+        "key": "trading_part",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "trade_goods",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "float"
+                }
+            }
+        ]
+    },
+    {
+        "key": "trading_policy_in_node",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "node",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "policy",
+                    "statement_type": "float"
+                }
+            }
+        ]
+    },
+    {
+        "key": "war_score_against",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "years_in_union_under",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "value",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    },
+    {
+        "key": "years_in_vassalage_under",
+        "type": "clause", 
+        "key_type": "clause",
+        "tree_type": "Trigger",
+        "allow_changes": false,
+        "child_entries": [
+            {
+                "type": "statement",
+                "position": 1,
+                "statement": {
+                    "key": "who",
+                    "statement_type": "text"
+                }
+            },
+            {
+                "type": "statement",
+                "position": 2,
+                "statement": {
+                    "key": "years",
+                    "statement_type": "integer"
+                }
+            }
+        ]
+    }
+]
